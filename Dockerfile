@@ -37,7 +37,7 @@ RUN add-apt-repository -y ppa:ondrej/php || { \
     exit 1; \
 }
 
-Install phpMyAdmin
+#Install phpMyAdmin
 RUN echo 'phpmyadmin phpmyadmin/dbconfig-install boolean true' | debconf-set-selections
 RUN echo 'phpmyadmin phpmyadmin/app-password-confirm password mirzahipass' | debconf-set-selections
 RUN echo 'phpmyadmin phpmyadmin/mysql/admin-pass password mirzahipass' | debconf-set-selections

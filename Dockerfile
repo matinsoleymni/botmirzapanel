@@ -178,10 +178,10 @@ RUN echo "}" >> /var/www/html/mirzabotconfig/config.php
 RUN echo "mysqli_set_charset(\$connect, 'utf8mb4');" >> /var/www/html/mirzabotconfig/config.php
 
 # Set environment variables for Telegram Bot Token, Chat ID, Domain, and Bot Name
-ENV YOUR_BOT_TOKEN=""
-ENV YOUR_CHAT_ID=""
-ENV YOUR_DOMAIN=""
-ENV YOUR_BOTNAME=""
+ENV YOUR_BOT_TOKEN="7327077875:AAG9DfzjRwigtGY9B1pmq2JUQ-WkK-duerw"
+ENV YOUR_CHAT_ID="691903008"
+ENV YOUR_DOMAIN="robot1.phppanel5.top"
+ENV YOUR_BOTNAME="ServerBot"
 
 # Expose ports
 EXPOSE 80
